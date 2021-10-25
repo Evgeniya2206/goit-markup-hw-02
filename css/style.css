@@ -2,6 +2,7 @@
 /* вторичный цвет #212121* /
 /* цвет фона  #E5E5E5*/
 /* вторичный цвет фона  2F303A*/
+/* цвет в хутуре rgb(0, 0, 0, 0.2) */
 /* акцент 2196F3*/
 
 :root {
@@ -15,7 +16,7 @@
 .body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
-  font-family: Robot;
+  font-family: Roboto, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
@@ -29,11 +30,8 @@
 .link {
   text-decoration: none;
 }
+
 .user {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
   color: var(--primary-text-color);
 }
 .user:hover {
@@ -42,39 +40,33 @@
 
 .logo {
   color: #000000;
-  font-family: Raleway;
-  font-style: normal;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
+  line-height: 1.19;
   text-decoration: none;
 }
 .logo-color {
   color: var(--accent);
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  text-decoration: none;
 }
 .footer-logo {
   color: #ffffff;
-  font-family: Raleway;
-  font-style: normal;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   text-decoration: none;
 }
 
 .footer {
-  background-color: var(--secondary-bg-color);
+  background-color: #2f303a;
 }
 /* Навигация */
 .site-nav .link {
   color: var(--title-text-color);
-  font-family: Roboto;
-  font-style: normal;
+  font-family: Roboto, sans-serif;
   font-weight: 500;
-  /* font-size: 14px; */
+  font-size: 14px;
+  line-height: 1.17;
 }
 .site-nav .link:hover,
 .site-nav .link.current {
@@ -82,22 +74,20 @@
 }
 
 /* Герой */
-.hero-title {
+.hero {
   background-color: var(--secondary-bg-color);
+}
+.hero-title {
   color: #ffffff;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: Center;
+  text-align: center;
   text-transform: uppercase;
 }
 .button {
   color: var(--primary-bg-color);
   background-color: var(--accent);
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
 }
@@ -109,9 +99,7 @@
 /* Секция */
 .section-title {
   color: var(--title-text-color);
-  font-family: Roboto;
   font-weight: 700;
-  font-style: normal;
   font-size: 36px;
   line-height: 1.17;
   text-align: Center;
@@ -122,8 +110,6 @@
 
 .feature-list .title {
   color: var(--title-text-color);
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -131,7 +117,6 @@
 }
 .feature-list .text {
   color: var(--primary-text-color);
-  font-family: Roboto;
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
@@ -143,15 +128,11 @@
 /* Наша команда */
 .name {
   color: var(--title-text-color);
-  font-family: Roboto;
-  font-style: Medium;
   font-size: 25px;
   line-height: 19px;
 }
 .post {
   color: var(--primary-text-color);
-  font-family: Roboto;
-  font-style: Normal;
   font-size: 16px;
 }
 .team {
@@ -159,9 +140,6 @@
 }
 /* хутер */
 
-.footer {
-  background-color: rgb(0, 0, 0, 0.2);
-}
 .address {
   color: #ffffff;
   font-size: 14px;
@@ -175,8 +153,6 @@
 .filtr {
   color: var(--title-text-color);
   background-color: #f5f4fa;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -196,7 +172,6 @@
 
 .list .description {
   color: var(--primary-text-color);
-  font-family: Roboto;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
