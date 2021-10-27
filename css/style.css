@@ -31,6 +31,7 @@ body {
 
 .user {
   color: var(--primary-text-color);
+  font-weight: 500;
 }
 .user:hover {
   color: var(--accent);
@@ -100,7 +101,6 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  text-transform: uppercase;
 }
 
 /* Преимущества */
@@ -109,14 +109,14 @@ body {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.17;
   text-transform: uppercase;
 }
 .feature-list .text {
   color: var(--primary-text-color);
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.71;
 }
 
 /* Примеры работ */
@@ -164,7 +164,7 @@ body {
   background-color: var(--accent);
   color: #ffffff;
 }
-.list .title {
+.lists .title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
