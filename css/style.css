@@ -22,7 +22,8 @@ body {
   letter-spacing: 0.03em;
 }
 
-.list {
+.list,
+.lists {
   list-style: none;
 }
 .link {
@@ -171,7 +172,7 @@ body {
   line-height: 2;
 }
 
-.list .description {
+.link .description {
   color: var(--primary-text-color);
   font-weight: 400;
   font-size: 16px;
